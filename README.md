@@ -3,3 +3,7 @@
 ### technologie: html,css,js
 ### uruchomienie: index.html
 strona: https://bongogong.github.io/Egzamin-czerwiec-2023/
+deployer:
+obrazki: main 
+skrypty: main
+Pliki i folder: 
