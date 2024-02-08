@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styl_1.css">
+    <title>Malarz</title>
+    <script>
+        function oblicz(){
+            let farba=document.getElementById("powierzchnia").value;
+            farba=farba/4;
+            farba=Math.ceil(farba);
+            document.getElementById("wynik").innerHTML="Liczba potrzebnych puszek: "+farba;
+        }
+    </script>
+</head>
+<body>
+  <header>
+
+    <div class="header">
+      <h1>Malowanie pokoi i biur</h1>
+    </div>
+
+  </header>
+  <main>
+
+    <div class="main">
+      <div class="lewy">
+        <h2>Menu</h2>
+        <ul>
+          <li><a href="mieszamy.html">mieszamy</a></li>
+          <li><a href="cena.html">wyceniamy</a></li>
+        </ul>
+      </div>
+      <div class="article">
+        <h2>Zapotrzebowanie na farbe</h2>
+        <label>Powierzchnia malowania (m2):<input id="powierzchnia" type="text"/></label>
+        <button onclick="oblicz()">Kliknij tu</button>
+        <div id="wynik"></div>
+      </div>
+      <div class="prawy"></div>
+  </main>
+  <footer>
+
+    <div class="footer">
+      <h2>MALARZ</h2>
+      <h5>Stronę opracował: 0000000000</h5>
+    </div>
+    
+  </footer>
+</body>
+</html>
