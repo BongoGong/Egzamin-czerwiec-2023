@@ -1,0 +1,57 @@
+html * {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.kontener{
+    position: relative;
+    color: #222;
+    background-color: linen;
+    margin: auto;
+    width: 90%;
+}
+.footermain{
+    display: flex;
+}
+.footer{
+    display: flex;
+    width: 50%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+.główny{
+    padding: 20px;
+}
+.stopka{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+a{
+    color: #aaa;
+    display: inline-block;
+    padding: 5px;
+    margin: 10px;
+    border-bottom: 1px white solid;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+}
+.table{
+    width: 500px;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+tr{
+    display: flex;
+}
+td{
+    padding: 30px;
+    width: 100%;
+    text-align: center;
+}
