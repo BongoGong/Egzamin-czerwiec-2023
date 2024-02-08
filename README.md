@@ -4,6 +4,6 @@
 ### uruchomienie: index.html
 strona: https://bongogong.github.io/Egzamin-czerwiec-2023/
 deployer:
-obrazki: main 
-skrypty: main
-Pliki i folder: 
+obrazki: kolory.jpg
+skrypty: skrypt.js
+Pliki i folder: wszystko w main
